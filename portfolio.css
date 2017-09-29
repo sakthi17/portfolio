@@ -1,0 +1,261 @@
+/*
+body{ 
+  background: url("http://images.inc.com/uploaded_files/image/970x450/laptop-coffee-1940x900_35055.jpg");
+  background-size : cover;
+  background-repeat:no-repeat;
+}
+*/
+
+html,body{
+  height:100%;
+  width:100%;
+}
+
+h1,h2,body
+{
+ font-family: 'Open Sans Condensed', sans-serif;    
+ font-weight: 600;
+ font-size: 15px;
+}
+
+.topnav .navbar-brand{
+   background-color: black; 
+   color: #dddddd;
+   font-family:sans-serif;
+}
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus{
+  background-color: rgba(100,100,100,0.5);
+  color: white;
+  border-bottom: 3px solid #ccffff;
+}
+
+.topnav div#NavList ul li a{
+    border: 1px solid #555555; 
+    background-color: rgba(0,0,0,1);
+    font-family:sans-serif;
+    color:white;
+}
+
+.topnav div#NavList ul li a:hover{
+ background-color: rgba(100,100,100,0.5);
+  color: white;
+  border-bottom: 3px solid #ccffff;
+}
+
+/*
+*{
+  border: 1px solid black;
+}*/
+
+section#home{
+  height:800px;
+  padding-top:60px;
+  padding-bottom:20%;
+  background: url('https://picjumbo.imgix.net/HNCK9016.jpg?q=40&w=1650&sharp=30') no-repeat fixed center top;
+  background-size:cover;
+  margin:0px;
+}
+
+section#home > .bg-overlay{
+  background: rgba(0,0,0,0.5);
+  text-align:center;
+  /*margin:50px 0 50px 0;*/
+  margin:3% 0 5% 0;
+  padding:5%;
+}
+
+section#home div#intro h1,
+section#home div#intro h4{
+   font-family: 'Poiret One', cursive;
+   color: white;
+   font-size:2.8em;
+   margin-top: 2.5%;
+}
+
+#standout{
+  color: #CCFFFF;/*00CCFF;*/
+  border-bottom: 2px solid #ccffff;
+}
+
+hr.intro-divider{
+  margin:5% auto 5% auto;
+  width: 90%;
+  border: 1px outset rgba(255,255,255,1);
+  box-shadow: 0px 1px rgba(255,255,255,1); 
+}
+/*
+#platformlinks{
+  background-color: rgba(10,10,10,0.8);
+}*/
+
+#platformlinks ul li a{
+  font-size:1.5em;
+  padding:5%;
+  font-family:'Poiret One', cursive, sans-serif;
+  margin:10px;
+  background-color: rgba(0,0,0,0.8); /*#383838 ;*/
+  color: white;
+  letter-spacing:1px;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+#platformlinks ul li a:hover{
+  border: 3px solid white;
+  font-weight:bold;
+  border-radius:5%;  
+
+  /* background-color: rgba(100,100,100,0.8);
+  color:white; */
+}
+
+section#aboutme{
+ height:700px;
+ background:url('https://www.google.com/chromebook/static/images/features-work-play.jpg') center center no-repeat;
+ background-size:cover;
+}
+
+#aboutme .bg-overlay{
+  background: rgba(0,0,0,0.7);
+  margin:20% 0 5% 0;
+  font-family:'Poiret One', cursive, sans-serif;
+  color:white;
+}
+
+#aboutme .bg-overlay h2{
+  font-size:2.8em;
+  margin:2%;
+ 
+  text-align:center;
+  font-family: 'Poiret One', cursive;  
+}
+
+#aboutme p.lead{
+  margin:2%;
+  padding-left:3%;
+  text-align:center;
+  font-size:1.4em;
+  
+}
+
+/*
+#contactme, #contactme *{
+  border: 1px solid black;
+}*/
+
+section#contactme{
+   height:500px;
+   background: url('http://www.coachdennistan.com/wp-content/uploads/2016/02/contact-me.jpg') no-repeat center bottom fixed;
+   background-size:cover;
+}
+
+#contactme .bg-overlay{
+   /*border:1px solid black; 
+  margin:-20px;*/
+   height:500px;
+   background: rgba(0,0,0,0.3);
+}
+
+#contactme div#platformlinks{
+    padding-top:7%;
+    margin-left:10%;
+    margin-right: 20%;
+    height:75%;
+    width:50%
+}
+
+#contactme ul li{
+  background: rgba(0,0,0,0.5);
+  display: block;
+  text-align:center;
+  padding: 1%;  
+  margin:3%;
+}
+
+#contactme ul li a{
+  padding:2%;
+}
+
+
+.fa{
+  margin: 0.3em;
+}
+
+footer{
+ height:100px;
+ padding:20px;
+ background: rgba(0,0,0,0.2);
+}
+
+footer ul li{
+  margin-left:2px;
+  font-size:17px;
+}
+
+@media (max-width:400px){
+
+ section#home > .bg-overlay{
+    margin:20% 5% 10% 5%;
+  } 
+ 
+ section#home div#intro h1{
+     letter-spacing:0.1em;   
+  }   
+ 
+section#home div#intro h4{
+   font-size:1.5em;
+   padding:2%;
+   margin-top:10%;
+}
+  section#home div#intro hr{
+    width:100%;    
+    margin-top:10%;
+  }
+
+  section#aboutme{
+    height:850px;
+  }
+  
+  #home #platformlinks{
+    margin-top: 15%;
+  } 
+
+  #home #platformlinks ul li{
+    display: block;
+  }
+  
+  #home #platformlinks ul li a{
+    font-size:1.2em;
+    padding:2%;  
+    margin:7%;
+    border: 3px solid white;
+    font-weight:bold;
+    border-radius:5%;  
+}
+
+#aboutme p.lead{
+  margin:5px;
+  padding:3%;
+  text-align:left;
+  font-size:1.3em;
+  line-height:1.5em;
+}  
+
+#contactme div#platformlinks{
+  padding-top:30%;    
+  width:90%;
+}  
+  
+#contactme div#platformlinks ul li{  
+    margin: 5%;  
+    padding:2%;
+}
+
+#contactme div#platformlinks ul li a{  
+    font-size:1.2em;
+    padding:3%;
+    border: 3px solid white;
+    font-weight:bold;
+    border-radius:5%;  
+}
+}
