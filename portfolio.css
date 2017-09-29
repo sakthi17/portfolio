@@ -145,8 +145,7 @@ section#aboutme{
 
 section#contactme{
    height:500px;
-   background: url('http://www.coachdennistan.com/wp-content/uploads/2016/02/contact-me.jpg') no-repeat center bottom fixed;
-   background-size:cover;
+   background-color: rebeccapurple; 
 }
 
 #contactme .bg-overlay{
